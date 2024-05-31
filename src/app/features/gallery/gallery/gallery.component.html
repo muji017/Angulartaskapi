@@ -1,0 +1,7 @@
+
+<div class="gallery">
+    <div *ngFor="let data of galleryData" class="gallery-item">
+      <img [src]="data.download_url" [alt]="data.author">
+      <p>{{ data.author }}</p>
+    </div>
+</div>

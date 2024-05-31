@@ -1,1 +1,23 @@
-<p>nav works!</p>
+<nav>
+    <header>
+      <!-- You can add your header content here -->
+    </header>
+    <div>
+      <ul>
+        <li>
+          <a [routerLink]="['/user-list']">
+            Grid
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/user-gallery']">
+            Gallery
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Router Outlet to display routed components -->
+  <router-outlet></router-outlet>
+  
