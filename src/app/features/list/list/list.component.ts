@@ -26,6 +26,7 @@ export class ListComponent {
     pagination: true,
     paginationPageSize: 10,
     paginationPageSizeSelector : false,
+    cacheBlockSize:10,
     onPaginationChanged: this.onPaginationChanged.bind(this)
   };
   constructor(private service: GalleryService) {}
@@ -58,6 +59,6 @@ export class ListComponent {
   //   console.log(page,"edheb");
     
   //   this.page=page
-  //   // this.getGridDatas(page);
+  //   this.getGridDatas(page);
   // }
 }
