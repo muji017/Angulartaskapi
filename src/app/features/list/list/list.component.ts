@@ -25,7 +25,7 @@ export class ListComponent {
   public gridOptions: GridOptions = {
     pagination: true,
     paginationPageSize: 10,
-    paginationPageSizeSelector : [10],
+    paginationPageSizeSelector : false,
     onPaginationChanged: this.onPaginationChanged.bind(this)
   };
   constructor(private service: GalleryService) {}

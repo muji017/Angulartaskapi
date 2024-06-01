@@ -23,4 +23,10 @@ nav {
   nav ul li a:hover {
     text-decoration: underline;
   }
+  .active-link {
+    text-decoration: underline !important;
+    text-decoration-color: rgb(1, 204, 255) !important;
+    text-decoration-thickness: 2px !important;
+  }
+  
   
