@@ -1,0 +1,13 @@
+.pagination {
+    text-align: end;
+    margin: 20px 50px;
+  }
+.pagination button{
+    margin: 5px;
+}
+.ag-icon {
+    display: block !important;
+}
+.ag-theme-quartz {
+    min-width: 1200px; 
+  }

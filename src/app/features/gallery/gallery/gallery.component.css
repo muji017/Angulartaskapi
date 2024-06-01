@@ -2,18 +2,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+   
   }
   
   .gallery-item {
+    background-color: #ffffff;
     margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;
-    width: 30%;
+    width: 20%;
   }
   
   .gallery-item img {
     max-width: 100%;
     height: auto;
+  }
+  @media (max-width: 1024px) {
+    .gallery-item {
+      width: 25%; 
+    }
   }
   @media (max-width: 768px) {
     .gallery-item {
