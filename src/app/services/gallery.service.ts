@@ -13,7 +13,7 @@ export class GalleryService {
     private http:HttpClient
   ) {}
 
-  getGridDatas(page:number):Observable<GalleryData[]>{
-    return this.http.get<GalleryData[]>(`${this.apiUrl}page=${page}&limit=30`)
+  getGridDatas(page:number,limit:number=30):Observable<GalleryData[]>{
+    return this.http.get<GalleryData[]>(`${this.apiUrl}page=${page}&limit=${limit}`)
   }
 }
